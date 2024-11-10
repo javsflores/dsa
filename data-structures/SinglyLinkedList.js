@@ -1,6 +1,6 @@
-import Node from './Node';
+const Node = require('./Node')
 // We create a class for the list
-class SinglyLinkedList{
+class SinglyLinkedList {
     // The list has three properties, the head, the tail and the list size
     constructor(){
         this.head = null
@@ -23,8 +23,8 @@ class SinglyLinkedList{
     // The pop method removes the tail of the list
     pop() {
         if (!this.head) return undefined
-        const current = this.head
-        const newTail = current
+        let current = this.head
+        let newTail = current
         while (current.next) {
             newTail = current
             current = current.next
@@ -122,3 +122,5 @@ class SinglyLinkedList{
     //     return this
     // }
 }
+
+module.exports = SinglyLinkedList;
