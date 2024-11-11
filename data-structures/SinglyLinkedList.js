@@ -1,4 +1,4 @@
-const Node = require('./Node')
+const Node = require('./Node');
 // We create a class for the list
 class SinglyLinkedList {
     // The list has three properties, the head, the tail and the list size
