@@ -28,6 +28,7 @@ var minPathSum = function(grid, downIndex = 0, rightIndex = 0) {
     // }
     // return totalSum + Math.min(rightSum, downSum);
 
+    // Optimized solution - the solution above will take very long if the input increases to a large data set
     // Time Complexity O(N)
     // Space Complexity O(1)
     let lastDownIndex = grid.length - 1;
