@@ -8,6 +8,16 @@ function createSinglyLinkedList(items) {
     return singlyLinkedList;
 }
 
+function toArrayFromNode(node) {
+    let arrayFromNode = [];
+    while(node) {
+        arrayFromNode.push(node.val);
+        node = node.next;
+    }
+    return arrayFromNode;
+}
+
 module.exports = {
     createSinglyLinkedList,
+    toArrayFromNode,
 }
