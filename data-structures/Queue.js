@@ -1,3 +1,4 @@
+const Node = require("./Node");
 /**
  *  Queues Notes
  *  Linear Data Structure
@@ -11,8 +12,6 @@
  *  Would it be better to use an Array or a Linked List?
  *      You should only use Linked Lists - you never want to use an array.
  */
-const Node = require("./Node");
-
 class Queue {
     constructor() {
         this.first = null;

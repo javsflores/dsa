@@ -1,4 +1,5 @@
 const Node = require('./Node');
+
 /**
  * Stacks Notes
  *
@@ -31,7 +32,6 @@ const Node = require('./Node');
  *      Would it be better to use an Array or a Linked List?
  *          You could use either
  */
-
 class Stack {
     constructor() {
         this.first = null;
