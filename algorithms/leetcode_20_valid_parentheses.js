@@ -13,8 +13,8 @@ let isValid = function(s) {
         if (s[i] === '(' || s[i] === '{' || s[i] === '[') {
             charStack.push(s[i]);
         } else {
-            let lastCharPushed = charStack.pop();
-            if (pairDictionary[s[i]] !== lastCharPushed) {
+            let expectedChar = charStack.pop();
+            if (pairDictionary[s[i]] !== expectedChar) {
                 return false;
             }
         }
