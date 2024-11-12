@@ -33,6 +33,9 @@
  *      @return {string}
  */
 let minRemoveToMakeValid = function(s) {
+    // This is the optimized solution
+    // Time Complexity O(N)
+    // Space Complexity O(N)
     let parenStack = [];
     let stringArray = s.split('');
     let counter = 0
