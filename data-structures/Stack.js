@@ -65,14 +65,18 @@ class Stack {
         return temp.val;
     }
 }
-let newStack = new Stack()
-console.log('We are pushing the value 1 in our stack. Number of items in our Stack:', newStack.push(1));
-console.log('We are pushing the value 6 in our stack. Number of items in our Stack:', newStack.push(6));
-console.log('We are pushing the value 8 in our stack. Number of items in our Stack:', newStack.push(8));
-console.log('We are pushing the value 3 in our stack. Number of items in our Stack: ', newStack.push(3));
-console.log('Here is our current stack: ', newStack);
-console.log('We are popping the following value from our stack: ', newStack.pop());
-console.log('We are popping the following value from our stack: ', newStack.pop());
-console.log('We are popping the following value from our stack: ', newStack.pop());
-console.log('We are popping the following value from our stack: ', newStack.pop());
-console.log('Here is our current stack: ', newStack);
+
+// Test Cases
+// let newStack = new Stack()
+// console.log('We are pushing the value 1 in our stack. Number of items in our Stack:', newStack.push(1));
+// console.log('We are pushing the value 6 in our stack. Number of items in our Stack:', newStack.push(6));
+// console.log('We are pushing the value 8 in our stack. Number of items in our Stack:', newStack.push(8));
+// console.log('We are pushing the value 3 in our stack. Number of items in our Stack: ', newStack.push(3));
+// console.log('Here is our current stack: ', newStack);
+// console.log('We are popping the following value from our stack: ', newStack.pop());
+// console.log('We are popping the following value from our stack: ', newStack.pop());
+// console.log('We are popping the following value from our stack: ', newStack.pop());
+// console.log('We are popping the following value from our stack: ', newStack.pop());
+// console.log('Here is our current stack: ', newStack);
+
+module.exports = Stack;

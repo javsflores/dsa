@@ -45,14 +45,17 @@ class Queue {
     }
 }
 
-let newQueue = new Queue()
-console.log('We are pushing the value 1 in our Queue. Number of items in our Queue:', newQueue.enqueue(1));
-console.log('We are pushing the value 6 in our Queue. Number of items in our Queue:', newQueue.enqueue(6));
-console.log('We are pushing the value 8 in our Queue. Number of items in our Queue:', newQueue.enqueue(8));
-console.log('We are pushing the value 3 in our Queue. Number of items in our Queue: ', newQueue.enqueue(3));
-console.log('Here is our current Queue: ', newQueue);
-console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
-console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
-console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
-console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
-console.log('Here is our current Queue: ', newQueue);
+// Test Cases
+// let newQueue = new Queue()
+// console.log('We are pushing the value 1 in our Queue. Number of items in our Queue:', newQueue.enqueue(1));
+// console.log('We are pushing the value 6 in our Queue. Number of items in our Queue:', newQueue.enqueue(6));
+// console.log('We are pushing the value 8 in our Queue. Number of items in our Queue:', newQueue.enqueue(8));
+// console.log('We are pushing the value 3 in our Queue. Number of items in our Queue: ', newQueue.enqueue(3));
+// console.log('Here is our current Queue: ', newQueue);
+// console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
+// console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
+// console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
+// console.log('We are popping the following value from our Queue: ', newQueue.dequeue());
+// console.log('Here is our current Queue: ', newQueue);
+
+module.exports = Queue;
