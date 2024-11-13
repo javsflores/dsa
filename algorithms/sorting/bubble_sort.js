@@ -1,8 +1,7 @@
-function bubbleSort(array) {
-    let counter = 0;
+function bubble_sort(array) {
+    // Self implementation by how Bubble Sort was described
     let needToRerun = false;
     for (let i = 0; i < array.length; i++) {
-        counter++;
         if (array[i] > array[i + 1]) {
             let currentItem = array[i];
             array[i] = array[i+1];
@@ -15,10 +14,10 @@ function bubbleSort(array) {
         }
     }
 
+    // Implementation by instructor --- I think you could have an exit strategy to mark when you're done sorting early
     // const length = array.length;
     // for (let i = 0; i < length; i++) {
     //     for (let j = 0; j < length; j++) {
-    //         counter++;
     //         if(array[j] > array[j+1]) {
     //             let temp = array[i];
     //             array[j] = array[j + 1];
@@ -26,10 +25,11 @@ function bubbleSort(array) {
     //         }
     //     }
     // }
-    console.log(counter);
 }
 
-// bubbleSort([1,3,2]);
-// bubbleSort([1,3,4,5,7,6,8,9,10]); // Mostly Sorted
-// bubbleSort([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]); // Reversed
-bubbleSort([1,5,9,7,6,4,2,3,10,8]) // Random
+
+// let numbers =  [1, 2, 3, 4, 5, 7, 6, 8, 9, 10]; // Mostly Sorted
+// let numbers =  [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]; // Reversed
+let numbers =  [1, 5, 9, 7, 6, 4, 2, 3, 10, 8]; // Random
+bubble_sort(numbers);
+console.log(numbers);
